@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+/* กำหนดความกว้างเราจะได้กล่อง */
+.container{
+    width: 40rem;
+    border: 1px solid #777;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+.count{
+    padding: 0 1rem;
+    font-size: 4rem;
+    text-align: center;
+}
+/* display: block ทำให้ตัวกล่องอินพุตลงมาอยู๋ด้านล่าง */
+input[type="text"]{
+    display: block;
+    font-size: 16px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
